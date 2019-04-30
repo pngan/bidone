@@ -1,0 +1,14 @@
+  <div>
+    <div class="double-panel-header">Name</div>
+    <div class="double-panel-left">
+      First Name:
+      <textarea  [(ngModel)]="firstName"></textarea>
+    </div>
+    <div class="double-panel-right">
+      Last Name:
+      <textarea [(ngModel)]="lastName"></textarea>
+    </div>
+
+    <input type="button" value="Submit Name" (click)="doSubmit()">
+
+  </div>
